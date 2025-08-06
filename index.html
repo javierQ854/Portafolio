@@ -12,22 +12,32 @@
   <div>
     <header id="header">
       <section class="bg-blue-950 text-white p-2 fixed top-0 w-full z-50">
-        <div class="py-5 px-5  container mx-auto flex justify-between">
-          <h1 class="font-bold text-lg md:text-2xl">DESARROLLADOR</h1>
-          <nav class="space-x-6">
-            <a class="hover:underline" href="#">Inicio</a>
+        <div class="container mx-auto px-5 py-5 md:flex md:justify-between md:items-center">
+          <!-- Logo y botón -->
+          <div class="flex items-center justify-between">
+            <h1 class="font-bold text-lg md:text-2xl">DESARROLLADOR</h1>
+            <iconify-icon id="menu_toggle" icon="material-symbols:menu" width="24" height="24"
+              class="md:hidden cursor-pointer"></iconify-icon>
+          </div>
+
+          <!-- Menú de navegación -->
+          <nav id="menu_cabecera" class=" hidden flex flex-col gap-4 pt-4 text-center md:flex md:flex-row md:space-x-4 md:gap-0 md:pt-0">
+
+            <a class="hover:underline" href="#hero">Inicio</a>
             <a class="hover:underline" href="#about">About</a>
             <a class="hover:underline" href="#formacion">Formacion</a>
             <a class="hover:underline" href="#experiencia">Experiencia</a>
-            <a class="hover:underline" href="#tecnologias">tecnologias</a>
+            <a class="hover:underline" href="#tecnologias">Tecnologías</a>
             <a class="hover:underline" href="#proyectos">Proyectos</a>
-
           </nav>
+
         </div>
       </section>
     </header>
+
+
     <main>
-      <section id="hero">
+      <section id="hero" class="scroll-mt-20">
         <section class=" bg-gradient-to-b from-blue-950 to-blue-700 py-12 mt-20 scroll-mt-20">
           <div class="container mx-auto flex flex-col justify-center items-center">
             <div class="flex justify-center">
