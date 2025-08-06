@@ -1,0 +1,21 @@
+name: verificacion pull
+
+on:
+    pull_request:
+        branches:
+          - main
+
+jobs:
+    provar-configuracion:
+        runs-on: ubuntu-latest
+        steps:
+          - name: clonar repositorio
+            uses: actions/checkout@v4
+          - name: instalar node
+            uses: actions/setup-node@v4
+            with:
+                node-version: 22
+          - name: instalacion dependencias
+            run: npm install
+          - name: crear pagina
+            run: npm run build 
