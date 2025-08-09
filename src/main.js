@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('tecnologias').innerHTML = tecnologias()
     document.getElementById('proyectos').innerHTML = proyectos()
     document.getElementById('footer').innerHTML = footer()
-    
+
 
     const btn_menu = document.getElementById('menu_toggle')
     const menu = document.getElementById('menu_cabecera')
