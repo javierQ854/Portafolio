@@ -7,7 +7,7 @@ export default () => {
     </div>
     <nav id="menu_cabecera" class=" hidden flex flex-col text-center gap-5 pt-4 lg:flex lg:pt-0 lg:flex-row lg:gap-5">
         <a class="hover:underline" href="#hero">Inicio</a>
-        <a class="hover:underline" href="#about">About</a>
+        <a class="hover:underline" href="#about">Perfil</a>
         <a class="hover:underline" href="#formacion">Formacion</a>
         <a class="hover:underline" href="#experiencia">Experiencia</a>
         <a class="hover:underline" href="#tecnologias">Tecnologías</a>
